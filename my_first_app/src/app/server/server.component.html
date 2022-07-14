@@ -1,0 +1,17 @@
+<!-- string Interpolation : Dynmaic data  -->
+<!-- <p>{{'server'}} with ID {{serverID}} is {{getServerStatus()}}</p> -->
+
+<!-- Data Binding -->
+
+<!-- Property Binding & Event Binding in One Way-->
+
+<button
+class="btn btn-primary"
+[disabled] ="!allowNewServer"
+(click) = "onCreateServer()"
+>
+Add Server
+</button>
+
+<p>{{serverCreationStatus}}</p>
+
